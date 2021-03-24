@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-box {
+    background-color: #000000;
+    border: solid 10px #494949;
+    border-radius: 3px;
+    width: 800px;
+    height: 600px;
+    margin-left: 80px;
+}
+
+#img-box:hover {
+    transition-duration: 0.3s;
+    border: solid 10px#2b2b2b;
+}
+
+#buttonBack {
+    position: absolute;
+    top: 323px;
+    left: 30px;
+    width: 50px;
+    height: 305px;
+    background-color: #494949;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#buttonForward {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    width: 50px;
+    height: 305px;
+    background-color: #494949;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#buttonBack:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: #2b2b2b;
+}
+
+#buttonForward:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: #2b2b2b;
+}
+
+#currentImg {
+    position: absolute;
+    top: 630px;
+    left: 88px;
+}
+
+#urlField {
+    position: absolute;
+    top: 690px;
+    left: 88px;
+    width: 730px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    color: #494949;
+    background-color: #ffffff;
+}
+
+#submitButt {
+    position: absolute;
+    top: 690px;
+    left: 840px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #494949;
+}
+
+#submitButt:hover {
+    cursor: pointer;
+}
